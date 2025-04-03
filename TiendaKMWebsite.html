@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda KM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Contenido aquí -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<div class="d-flex align-items-center justify-content-center vh-100">
+    <div class="card p-4" style="width: 25rem;">
+        <h2 class="text-center">Iniciar Sesión</h2>
+        <form>
+            <div class="mb-3">
+                <label for="username" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="username" placeholder="Ingrese su usuario">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+        </form>
+    </div>
+ </div>
+ <div class="container mt-5">
+    <h1 class="mb-4">Dashboard</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Total Inventario</h5>
+                    <p class="card-text">3,546 unidades</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Pedidos Activos</h5>
+                    <p class="card-text">225 pedidos</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-warning mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Ventas del Mes</h5>
+                    <p class="card-text">$155,500,000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="container mt-5">
+    <h1 class="mb-4">Inventario</h1>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Buscar producto">
+        <button class="btn btn-outline-secondary" type="button">Buscar</button>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Cantidad</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jean Dsquared2</td>
+                <td>Ropa</td>
+                <td>1,200</td>
+                <td><button class="btn btn-primary btn-sm">Editar</button></td>
+            </tr>
+            <tr>
+                <td>Camiseta Importada</td>
+                <td>Ropa</td>
+                <td>798</td>
+                <td><button class="btn btn-primary btn-sm">Editar</button></td>
+            </tr>
+            <tr>
+                <td>Tenis Adidas Adizero</td>
+                <td>Tenis</td>
+                <td>1,548</td>
+                <td><button class="btn btn-primary btn-sm">Editar</button></td>
+            </tr>
+            </tbody>
+    </table>
+ </div>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mi App</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inventario</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pedidos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reportes</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+ </nav>    
